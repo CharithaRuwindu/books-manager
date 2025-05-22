@@ -1,0 +1,15 @@
+<div class="alert-container">
+  <div *ngFor="let alert of alerts" [class]="getAlertClass(alert.type)" role="alert">
+    <div class="d-flex align-items-center">
+      <div class="flex-grow-1">
+        {{ alert.message }}
+      </div>
+      <button 
+        type="button" 
+        class="btn-close" 
+        aria-label="Close"
+        (click)="closeAlert(alert.id)">
+      </button>
+    </div>
+  </div>
+</div>

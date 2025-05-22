@@ -1,0 +1,79 @@
+<app-alert></app-alert>
+
+<div class="container">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Book List</h2>
+    <button 
+      class="btn btn-success" 
+      (click)="createNewBook()"
+      [disabled]="isLoadingBooks">
+      <i class="bi bi-plus-circle me-2"></i>
+      Add New Book
+    </button>
+  </div>
+  
+  <div *ngIf="isLoadingBooks" class="text-center my-4">
+    <app-loading-spinner size="lg"></app-loading-spinner>
+    <p class="mt-2">Loading books...</p>
+  </div>
+  
+  <div class="alert alert-info" *ngIf="!isLoadingBooks && books.length === 0">
+    No books available. Click "Add New Book" to get started.
+  </div>
+  
+  <table class="table table-striped" *ngIf="!isLoadingBooks && books.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>ISBN</th>
+        <th>Publication Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>{{ book.id }}</td>
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.isbn }}</td>
+        <td>{{ book.publicationDate | date }}</td>
+        <td>
+          <button 
+            class="btn btn-primary btn-sm me-2" 
+            (click)="selectBookForEdit(book)"
+            [disabled]="isDeletingBookId === book.id">
+            <i class="bi bi-pencil-square me-1"></i>
+            Edit
+          </button>
+          <button 
+            class="btn btn-danger btn-sm" 
+            (click)="deleteBook(book.id)"
+            [disabled]="isDeletingBookId === book.id">
+            <span *ngIf="isDeletingBookId === book.id" class="me-1">
+              <app-loading-spinner size="sm" color="light"></app-loading-spinner>
+            </span>
+            <i *ngIf="isDeletingBookId !== book.id" class="bi bi-trash me-1"></i>
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <app-modal 
+    [isOpen]="isModalOpen"
+    [title]="getModalTitle()"
+    size="lg"
+    (closed)="onModalClose()">
+    
+    <app-book-form 
+      *ngIf="selectedBook"
+      [book]="selectedBook"
+      [isEditMode]="isEditing"
+      (bookSaved)="onBookSaved()"
+      (cancelEdit)="onModalClose()">
+    </app-book-form>
+  </app-modal>
+</div>
