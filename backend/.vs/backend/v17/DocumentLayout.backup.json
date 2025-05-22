@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "E:\\personal project\\Books Manager\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\data\\bookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:data\\bookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:data\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|e:\\personal project\\books manager\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A8ECE3-DDFB-4B2B-8B74-118577410975}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,68 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "books.json",
-              "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Data\\books.json",
-              "RelativeDocumentMoniker": "Data\\books.json",
-              "ToolTip": "E:\\personal project\\Books Manager\\backend\\Data\\books.json",
-              "RelativeToolTip": "Data\\books.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T13:32:40.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\personal project\\Books Manager\\backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:43:19.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BookStore.cs",
               "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Data\\BookStore.cs",
               "RelativeDocumentMoniker": "Data\\BookStore.cs",
               "ToolTip": "E:\\personal project\\Books Manager\\backend\\Data\\BookStore.cs",
               "RelativeToolTip": "Data\\BookStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwEoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:42:09.081Z",
+              "WhenOpened": "2025-05-22T09:12:52.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "books.json",
+              "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Data\\books.json",
+              "RelativeDocumentMoniker": "Data\\books.json",
+              "ToolTip": "E:\\personal project\\Books Manager\\backend\\Data\\books.json",
+              "RelativeToolTip": "Data\\books.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T13:32:40.163Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\personal project\\Books Manager\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:43:19.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "E:\\personal project\\Books Manager\\backend\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:40:46.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:40:46.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "E:\\personal project\\Books Manager\\backend\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
               "ToolTip": "E:\\personal project\\Books Manager\\backend\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:39:27.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:39:27.553Z"
             }
           ]
         },

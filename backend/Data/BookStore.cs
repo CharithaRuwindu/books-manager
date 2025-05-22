@@ -35,6 +35,16 @@ namespace backend.Data
             }
         }
 
+        public bool IsbnExists(string isbn)
+        {
+            return _books.Any(b => b.ISBN == isbn);
+        }
+
+        public bool IsbnExistsForDifferentBook(string isbn, int bookId)
+        {
+            return _books.Any(b => b.ISBN == isbn && b.Id != bookId);
+        }
+
         private void SaveBooks()
         {
             var options = new JsonSerializerOptions
@@ -60,7 +70,6 @@ namespace backend.Data
         {
             int newId = _books.Count > 0 ? _books.Max(b => b.Id) + 1 : 1;
             book.Id = newId;
-
             _books.Add(book);
             SaveBooks();
             return book;

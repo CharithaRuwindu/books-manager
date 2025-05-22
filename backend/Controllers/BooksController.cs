@@ -39,7 +39,12 @@ namespace BookStore.Controllers
         {
             if (book == null)
             {
-                return BadRequest();
+                return BadRequest("Book data is required.");
+            }
+
+            if (!string.IsNullOrEmpty(book.ISBN) && _bookRepository.IsbnExists(book.ISBN))
+            {
+                return Conflict($"A book with ISBN '{book.ISBN}' already exists.");
             }
 
             var addedBook = _bookRepository.AddBook(book);
@@ -51,16 +56,19 @@ namespace BookStore.Controllers
         {
             if (id != book.Id || book == null)
             {
-                return BadRequest();
+                return BadRequest("Invalid book data or ID mismatch.");
+            }
+
+            if (!string.IsNullOrEmpty(book.ISBN) && _bookRepository.IsbnExistsForDifferentBook(book.ISBN, id))
+            {
+                return Conflict($"A different book with ISBN '{book.ISBN}' already exists.");
             }
 
             var updatedBook = _bookRepository.UpdateBook(book);
-
             if (updatedBook == null)
             {
                 return NotFound();
             }
-
             return NoContent();
         }
 

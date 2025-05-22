@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "Id": 1,
+    "Title": "Madol Duuwa",
+    "Author": "Martin Wickramasinghe",
+    "ISBN": "9789555640107",
+    "PublicationDate": "1976-04-14T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Title": "Ape Gama",
+    "Author": "Martin Wickramasinghe",
+    "ISBN": "9789555640109",
+    "PublicationDate": "1980-03-27T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Title": "The Mother",
+    "Author": "Maxim Gorky",
+    "ISBN": "9780898751161",
+    "PublicationDate": "1906-01-04T00:00:00"
+  },
+  {
+    "Id": 4,
+    "Title": "Sherlock Holmes",
+    "Author": "Arthur Conan Doyle",
+    "ISBN": "9789385492907",
+    "PublicationDate": "1985-01-02T00:00:00"
+  },
+  {
+    "Id": 5,
+    "Title": "A song of ice and fire",
+    "Author": "George R. R. Martin",
+    "ISBN": "9781444795660",
+    "PublicationDate": "1996-06-01T00:00:00"
+  },
+  {
+    "Id": 6,
+    "Title": "Rich dad Poor dad",
+    "Author": "Robert Kiyoski",
+    "ISBN": "9781612680019",
+    "PublicationDate": "1997-02-02T00:00:00"
+  },
+  {
+    "Id": 7,
+    "Title": "Hath Pana",
+    "Author": "Kumarathunga Munidasa",
+    "ISBN": "9789552104763",
+    "PublicationDate": "1994-09-01T00:00:00"
+  },
+  {
+    "Id": 8,
+    "Title": "Malgudi Days",
+    "Author": "R. K. Narayan",
+    "ISBN": "9780143039655",
+    "PublicationDate": "1943-01-11T00:00:00"
+  }
+]

@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "Id": 1,
+    "Title": "Madol Duuwa",
+    "Author": "Martin Wickramasinghe",
+    "ISBN": "9789555640107",
+    "PublicationDate": "1976-04-09T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Title": "Ape Gama",
+    "Author": "Martin",
+    "ISBN": "9789555640109",
+    "PublicationDate": "1980-03-09T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Title": "The Mother",
+    "Author": "Maxim Gorky",
+    "ISBN": "9780898751161",
+    "PublicationDate": "1906-01-04T00:00:00"
+  }
+]

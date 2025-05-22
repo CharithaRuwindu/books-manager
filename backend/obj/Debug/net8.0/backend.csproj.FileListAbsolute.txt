@@ -35,3 +35,4 @@ E:\personal project\Books Manager\backend\obj\Debug\net8.0\backend.pdb
 E:\personal project\Books Manager\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 E:\personal project\Books Manager\backend\obj\Debug\net8.0\ref\backend.dll
 E:\personal project\Books Manager\backend\bin\Debug\net8.0\Data\books.json
+E:\personal project\Books Manager\backend\obj\Debug\net8.0\backend.sourcelink.json
